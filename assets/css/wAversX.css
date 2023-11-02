@@ -670,7 +670,12 @@ body {
 
 
 .amazing-venues {
-  margin: 100px 0px;
+  background: linear-gradient(180deg ,#d3c7da, #a8ffff ,#c7c5d6);
+  margin: 50px auto 80px;
+  border-radius: 90px;
+  padding: 40px 40px;
+  text-align: center;
+  color: #fff;
 }
 
 .amazing-venues .left-content h4 {
