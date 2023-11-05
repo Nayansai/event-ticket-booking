@@ -77,7 +77,7 @@ ul {
 p {
   font-size: 14px;
   line-height: 25px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 300;
 }
 
@@ -123,7 +123,7 @@ body {
 .section-heading h2 {
   font-size: 30px;
   font-weight: 800;
-  color: #2a2a2a;
+  color: #000000;
   text-transform: capitalize;
   letter-spacing: 0.5px;
   margin-top: 0px;
@@ -147,11 +147,13 @@ body {
   font-size: 14px;
   padding: 12px 18px;
   background-color: #fff;
-  color: #2a2a2a;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   text-transform: capitalize;
-  transition: all .3s;
+  transition: all .1s;
+  border-color: black;
+  border-radius: 15px;
 }
 
 .main-white-button a:hover {
@@ -177,7 +179,7 @@ body {
 
 .text-button a {
   font-size: 14px;
-  color: #7c838b;
+  color: #ffffff;
   transition: all .3s;
 }
 
@@ -197,13 +199,15 @@ body {
 
 
 .pre-header {
-  background-color: #f0f0f1;
+  background-color: #a4a4a4;
   padding: 10px 0px;
+  border-radius: 30px;
+  margin: 1%;
 }
 
 .pre-header span {
   font-size: 13px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -212,7 +216,7 @@ body {
 }
 
 .pre-header .text-button a {
-  color: #2a2a2a;
+  color: #000000;
 }
 
 .header-area {
@@ -248,7 +252,7 @@ body {
 
 .header-area .main-nav .logo em {
   font-style: normal;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 900;
 }
 
@@ -274,7 +278,7 @@ body {
   display: block;
   font-weight: 500;
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -299,7 +303,7 @@ body {
   position: absolute;
   width: 100%;
   height: 3px;
-  background-color: #656c74;
+  background-color: #8a0606;
   content: '';
   top: -20px;
   left: 0;
@@ -612,6 +616,7 @@ body {
   text-transform: capitalize;
   color: #fff;
   min-width: 15%;
+  width: 21%;
 }
 
 .main-banner .counter-content li span {
@@ -670,18 +675,19 @@ body {
 
 
 .amazing-venues {
-  background: linear-gradient(180deg ,#b3b3b3, #b3b3b3 ,#b3b3b3);
+  margin: 100px 0px;  background: linear-gradient(180deg ,#b3b3b3, #b3b3b3 ,#b3b3b3);
   margin: 50px auto 80px;
   border-radius: 90px;
   padding: 40px 40px;
   text-align: center;
   color: #fff;
+  width: 80%;
 }
 
 .amazing-venues .left-content h4 {
   font-size: 30px;
   font-weight: 800;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 20px;
 }
 
@@ -690,20 +696,20 @@ body {
 }
 
 .amazing-venues .right-content h5 i {
-  color: #2a2a2a;
+  color: #000000;
   margin-right: 5px;
 }
 
 .amazing-venues .right-content h5 {
   font-size: 22px;
   font-weight: 800;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 25px;
 }
 
 .amazing-venues .right-content span {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   line-height: 25px;
   font-weight: 300;
   display: block;
@@ -851,13 +857,13 @@ body {
 .event-item .down-content h4 {
   font-size: 22px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 25px;;
 }
 
 .event-item .down-content ul li {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 300;
   margin-bottom: 15px;;
 }
@@ -911,7 +917,7 @@ body {
   display: inline-block;
   font-size: 14px;
   padding: 12px 18px;
-  background-color: #343a3e;
+  background-color: #1f4e6d;
   color: #fff;
   text-align: center;
   font-weight: 500;
@@ -934,14 +940,14 @@ footer {
 
 footer h4 {
    font-size: 20px;
-   color: #2a2a2a;
+   color: #000000;
    font-weight: 700;
    margin-bottom: 25px;;
 }
 
 footer .address span {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   line-height: 24px;
   font-weight: 300;
 }
@@ -952,7 +958,7 @@ footer .links {
 
 footer .links ul li a {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 300;
   margin-bottom: 5px;
 }
@@ -963,7 +969,7 @@ footer .hours {
 
 footer .hours ul li {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 300;
   margin-bottom: 5px;
 }
@@ -990,7 +996,7 @@ footer p.copyright {
 
 .sub-footer .logo span em {
   font-style: normal;
-  color: #2a2a2a;
+  color: #000000;
 }
 
 .sub-footer .menu {
@@ -1005,7 +1011,7 @@ footer p.copyright {
 .sub-footer .menu ul li a {
   font-size: 14px;
   font-weight: 500;
-  color: #2a2a2a;
+  color: #000000;
 }
 
 .sub-footer .menu ul li a:hover {
@@ -1028,7 +1034,7 @@ footer p.copyright {
   display: inline-block;
   text-align: center;
   line-height: 30px;
-  background-color: #2a2a2a;
+  background-color: #000000;
   border-radius: 50%;
   color: #fff;
   font-size: 14px;
@@ -1088,14 +1094,14 @@ footer p.copyright {
 .about-item  .down-content h4 {
   font-size: 22px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 20px;
 }
 
 .about-item  .down-content ul li {
   font-size: 16px;
   font-weight: 500;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 5px;
 }
 
@@ -1118,14 +1124,14 @@ footer p.copyright {
 .about-upcoming-shows h2 {
   font-size: 30px;
   font-weight: 800;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 25px;
 }
 
 .about-upcoming-shows h4 {
   font-size: 22px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 25px;;
 }
 
@@ -1148,8 +1154,8 @@ footer p.copyright {
 }
 
 .about-upcoming-shows .next-shows {
-  border: 1px dotted #d7dadc;
-  padding: 20px;;
+  border: 10px dotted #2b1766;
+  padding: 10px;
 }
 
 .about-upcoming-shows .next-shows h4 {
@@ -1182,14 +1188,14 @@ footer p.copyright {
 .about-upcoming-shows .next-shows ul li h5 {
   font-size: 15px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 15px;;
 }
 
 .about-upcoming-shows .next-shows ul li span {
   font-size: 14px;
   font-weight: 300;
-  color: #2a2a2a;
+  color: #000000;
 }
 
 .about-upcoming-shows .next-shows ul li .icon-button {
@@ -1221,7 +1227,7 @@ footer p.copyright {
 .also-like h2 {
   font-size: 30px;
   font-weight: 800;
-  color: #2a2a2a;
+  color: #000000;
   margin-top: 100px;
   margin-bottom: 40px;
 }
@@ -1273,7 +1279,7 @@ footer p.copyright {
 
 .also-like .like-item .down-content span {
   font-size: 15px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 500;
   display: inline-block;
 }
@@ -1281,7 +1287,7 @@ footer p.copyright {
 .also-like .like-item .down-content h4 {
   font-size: 22px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-top: 10px;
 }
 
@@ -1334,7 +1340,7 @@ footer p.copyright {
   width: 100%;
   display: inline-block;
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 500;
   transition: all 0.3s;
 }
@@ -1365,11 +1371,14 @@ footer p.copyright {
   text-align: left;
   display: inline-block;
   transition: all 0.3s;
+  background-color: #b3b3b3;
+  padding: 30px;
+  border-radius: 30px;
 }
 .rent-venue-tabs .tabs-content h4 {
   font-size: 30px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 25px;
 }
 .rent-venue-tabs .tabs-content ul.list {
@@ -1382,13 +1391,13 @@ footer p.copyright {
 .rent-venue-tabs .tabs-content ul.list li {
   width: 28%;
   font-size: 14px;
-  color: #7c838b;
+  color: #ffffff;
 }
 
 .rent-venue-tabs .tabs-content #map h5 {
   font-size: 22px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -1404,7 +1413,7 @@ footer p.copyright {
 .rent-venue-application .heading-text h4 {
   font-size: 22px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 50px;
 }
 
@@ -1512,7 +1521,7 @@ footer p.copyright {
   width: 100%;
   display: inline-block;
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 500;
   transition: all 0.3s;
 }
@@ -1547,7 +1556,7 @@ footer p.copyright {
 .shows-events-tabs .tabs-content h4 {
   font-size: 30px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 25px;
 }
 
@@ -1565,7 +1574,7 @@ footer p.copyright {
 
 .shows-events-tabs .tabs-content .sidebar .heading-sidebar h4 {
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   font-size: 15px;
   line-height: 24px;
 }
@@ -1578,7 +1587,7 @@ footer p.copyright {
 .shows-events-tabs .tabs-content .sidebar .category h6,
 .shows-events-tabs .tabs-content .sidebar .venues h6 {
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   font-size: 15px;
   margin-top: 30px;
 }
@@ -1620,7 +1629,7 @@ footer p.copyright {
 .shows-events-tabs .tabs-content .event-item .left-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-bottom: 20px;
 }
 
@@ -1655,7 +1664,7 @@ footer p.copyright {
 }
 .shows-events-tabs .tabs-content .event-item .right-content ul li h6 {
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   font-size: 15px;
   width: 100%;
   display: inline;
@@ -1683,7 +1692,7 @@ footer p.copyright {
   font-size: 14px;
   padding: 12px 20px;
   background-color: #e6e7e8;
-  color: #2a2a2a;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   text-transform: capitalize;
@@ -1753,7 +1762,7 @@ footer p.copyright {
 .tickets-page .heading h2 {
   font-size: 30px;
   font-weight: 800;
-  color: #2a2a2a;
+  color: #000000;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 80px;
@@ -1807,14 +1816,14 @@ footer p.copyright {
 .tickets-page .ticket-item .down-content h4 {
   font-size: 22px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
   margin-top: 10px;
   margin-bottom: 25px;
 }
 
 .tickets-page .ticket-item .down-content ul li {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 300;
   margin-bottom: 15px;
 }
@@ -1847,7 +1856,7 @@ footer p.copyright {
   font-size: 14px;
   padding: 12px 20px;
   background-color: #e6e7e8;
-  color: #2a2a2a;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   text-transform: capitalize;
@@ -1878,7 +1887,7 @@ footer p.copyright {
 .ticket-details-page .right-content h4 {
   font-size: 30px;
   font-weight: 800;
-  color: #2a2a2a;
+  color: #000000;
 }
 
 .ticket-details-page .right-content span {
@@ -1902,7 +1911,7 @@ footer p.copyright {
 
 .ticket-details-page .right-content ul li {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 300;
   margin-bottom: 15px;
 }
@@ -1934,7 +1943,7 @@ footer p.copyright {
 .ticket-details-page .right-content .quantity-content .left-content h6 {
   font-size: 14px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
 }
 
 .ticket-details-page .right-content .total h4 {
@@ -2059,7 +2068,7 @@ footer p.copyright {
 .shows-events-schedule ul li .title h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #000000;
 }
 
 .shows-events-schedule ul li .title span {
@@ -2070,7 +2079,7 @@ footer p.copyright {
 
 .shows-events-schedule ul li .time span {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 300;
   display: inline-block;
   width: 200px;
@@ -2087,7 +2096,7 @@ footer p.copyright {
 
 .shows-events-schedule ul li .place span {
   font-size: 14px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 300;
   display: inline-block;
 }
@@ -2123,7 +2132,7 @@ footer p.copyright {
   font-size: 14px;
   padding: 12px 20px;
   background-color: #fff;
-  color: #2a2a2a;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   text-transform: capitalize;
