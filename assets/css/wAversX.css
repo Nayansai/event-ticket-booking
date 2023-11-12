@@ -200,7 +200,7 @@ body {
 
 .pre-header {
   background-color: #a4a4a4;
-  padding: 10px 0px;
+  padding: 9px 0px;
   border-radius: 30px;
   margin: 1%;
 }
@@ -590,7 +590,7 @@ body {
 }
 
 .main-banner .next-show i {
-  font-size: 12px;;
+  font-size: 18px;;
 }
 
 .main-banner .next-show span {
@@ -818,8 +818,8 @@ body {
 
 
 .coming-events {
-  background-color: #656c74;
-  padding: 120px 0px;
+  background-color: #972500;
+  padding: 100px 0px;
   position: relative;
 }
 
@@ -830,7 +830,7 @@ body {
   height: auto;
   top: 0;
   bottom: 0;
-  background-color: rgba(124,131,139,0.3);
+  background-color: rgba(13 68 130 / 30%);
 }
 
 .coming-events .left-button .main-white-button {
@@ -1154,7 +1154,7 @@ footer p.copyright {
 }
 
 .about-upcoming-shows .next-shows {
-  border: 10px dotted #2b1766;
+  border: 5px dashed #a50000;
   padding: 10px;
 }
 
@@ -1220,7 +1220,7 @@ footer p.copyright {
 
 .also-like {
   margin-top: 110px;
-  background-color: #f0f0f1;
+  background-color: #009283;
   padding-bottom: 100px;
 }
 
@@ -1477,6 +1477,7 @@ footer p.copyright {
   text-align: center;
 }
 
+
 .page-heading-shows-events h2 {
   font-size: 50px;
   color: #fff;
@@ -1491,6 +1492,8 @@ footer p.copyright {
   padding: 0px 250px;
   display: inline-block;
 }
+
+
 
 .shows-events-tabs {
   background-color: #f0f0f1;
@@ -1705,6 +1708,39 @@ footer p.copyright {
   color: #fff!important;
 }
 
+
+
+
+
+
+
+
+
+
+.page-heading-tickets {
+  background-image: url(../images/tickets_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 110px 0px;
+  text-align: center;
+}
+
+
+
+.page-heading-tickets h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.page-heading-tickets span {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  padding: 0px 250px;
+  display: inline-block;
+}
 
 .tickets-page {
   margin-bottom: 100px;
@@ -2253,6 +2289,9 @@ footer p.copyright {
   .amazing-venues .right-content {
     margin-left: 0;
     margin-top: 45px;
+    background-color: #b3b3b3;
+    border-radius: 25px;
+    padding: 20px;
   }
 
   .subscribe,
