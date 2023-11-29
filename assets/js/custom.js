@@ -109,3 +109,7 @@
 
 
 })(window.jQuery);
+
+document.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+}); //r-click
