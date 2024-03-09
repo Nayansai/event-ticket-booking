@@ -202,25 +202,51 @@ body {
   background-color: #a4a4a4;
   padding: 9px 0px;
   border-radius: 30px;
-  margin: 1%;
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  white-space: nowrap;
 }
 
-.pre-header span {
-  font-size: 13px;
+
+
+.pre-header marquee {
+  display:flex;
+  justify-content: center; 
+  font-size: 17px;
   color: #000000;
-  font-weight: 500;
+  font-weight: 400;
+  margin-left: -100px;
+  margin-right: -350px;
+  
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
 }
 
 .pre-header .text-button {
   text-align: right;
+  
 }
 
 .pre-header .text-button a {
   color: #000000;
+  padding: 5px 10px; 
+  font-size: 17px;
 }
 
 .header-area {
-  position: relative;
+  position: sticky;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -436,6 +462,7 @@ body {
 
 .header-area.header-sticky .nav li a.active {
   color: #656c74;
+  font-size: 25px;
 }
 
 @media (max-width: 1200px) {
@@ -882,7 +909,7 @@ body {
 
 
 .subscribe {
-  background-color: #7c838b;
+  background-color: #79818a;
   padding: 30px 0px;
 }
 
@@ -908,7 +935,7 @@ body {
   margin-top: 5px;
 }
 
-.subscribe form ::-webkit-input-placeholder { /* Edge */
+.subscribe form ::-webkit-input-placeholder { 
   color: #fff;
   font-weight: 200;
 }
@@ -935,7 +962,7 @@ body {
 
 footer {
   padding-top: 60px;
-  margin-bottom: 25px;
+  margin-bottom: 1px;
 }
 
 footer h4 {
@@ -988,62 +1015,52 @@ footer p.copyright {
   padding-top: 30px;
 }
 
-.sub-footer .logo span {
-  font-size: 28px;
-  font-weight: 800;
-  color: #656c74;
-}
 
-.sub-footer .logo span em {
-  font-style: normal;
-  color: #000000;
-}
 
-.sub-footer .menu {
-  text-align: center;
-}
 
-.sub-footer .menu ul li {
-  display: inline-block;
-  margin: 10px 15px 5px 15px;
-}
 
-.sub-footer .menu ul li a {
-  font-size: 14px;
-  font-weight: 500;
-  color: #000000;
-}
 
-.sub-footer .menu ul li a:hover {
-  color: #656c74;
+@keyframes scroll {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
 }
 
 .sub-footer .social-links {
+  width: 100%;
   text-align: right;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  margin-left: 415px;
+  display: inline-block;
+  animation: scroll 7s linear infinite;
 }
 
 .sub-footer .social-links ul li {
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .sub-footer .social-links ul li a {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   display: inline-block;
   text-align: center;
-  line-height: 30px;
+  line-height: 50px;
   background-color: #000000;
   border-radius: 50%;
   color: #fff;
-  font-size: 14px;
+  font-size: 28px;
   transition: all .3s;
 }
 
 .sub-footer .social-links ul li a:hover {
   background-color: #656c74;
 }
+
+
+
+
+
 
 
 .page-heading-about {
@@ -1058,6 +1075,14 @@ footer p.copyright {
   color: #fff;
   font-weight: 800;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-right: 606px;
+  margin-left: -25px;
+  border-radius: 13px;
+  background-color: #926120;
 }
 
 .page-heading-about span {
@@ -1156,6 +1181,7 @@ footer p.copyright {
 .about-upcoming-shows .next-shows {
   border: 5px dashed #a50000;
   padding: 10px;
+  background-color: #e1dcdc9e;
 }
 
 .about-upcoming-shows .next-shows h4 {
@@ -1305,7 +1331,17 @@ footer p.copyright {
   color: #fff;
   font-weight: 800;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-right: 140px;
+  margin-left: 140px;
+  border-radius: 13px;
+  background-color: #7700b4c2;
 }
+
+
 
 .page-heading-rent-venue span {
   font-size: 20px;
@@ -1439,11 +1475,11 @@ footer p.copyright {
   resize: none;
 }
 
-.rent-venue-application .contact-form ::-webkit-input-placeholder { /* Edge */
+.rent-venue-application .contact-form ::-webkit-input-placeholder { 
   color: #7a7a7a;
 }
 
-.rent-venue-application .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+.rent-venue-application .contact-form :-ms-input-placeholder { 
   color: #7a7a7a;
 }
 
@@ -1483,6 +1519,14 @@ footer p.copyright {
   color: #fff;
   font-weight: 800;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-right: 260px;
+  margin-left: 260px;
+  border-radius: 13px;
+  background-color: #00addec2;
 }
 
 .page-heading-shows-events span {
@@ -1712,14 +1756,9 @@ footer p.copyright {
 
 
 
-
-
-
-
-
 .page-heading-tickets {
   background-image: url(../images/tickets_bg.jpg);
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   padding: 110px 0px;
   text-align: center;
@@ -1732,6 +1771,14 @@ footer p.copyright {
   color: #fff;
   font-weight: 800;
   margin-bottom: 15px;
+  background-color: tan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-left: 270px;
+  margin-right: 270px;
+  border-radius: 13px;
 }
 
 .page-heading-tickets span {
@@ -1747,8 +1794,10 @@ footer p.copyright {
 }
 
 .tickets-page .search-box {
-  background-color: #7c838b;
+  background-color: #ac3e3e;
   padding: 30px;
+  margin-top: 40px;
+  border-radius: 15px;
 }
 
 .tickets-page .search-box h4 {
@@ -1780,7 +1829,7 @@ footer p.copyright {
   display: inline-block;
   font-size: 14px;
   padding: 12px 18px;
-  background-color: #343a3e;
+  background-color: #82122c;
   color: #fff;
   text-align: center;
   font-weight: 500;
@@ -1789,6 +1838,7 @@ footer p.copyright {
   border: none;
   outline: none;
   width: 100%;
+  border-radius: 50px;
 }
 
 .tickets-page .search-box .main-dark-button:hover {
@@ -1798,10 +1848,22 @@ footer p.copyright {
 .tickets-page .heading h2 {
   font-size: 30px;
   font-weight: 800;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 80px;
+  background-color: #ac3e3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 13px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+
 }
 
 .tickets-page .ticket-item .thumb {
@@ -1905,7 +1967,21 @@ footer p.copyright {
   color: #fff!important;
 }
 
+.page-heading-ticket-details {
+  background-image: url(../images/ticket_details_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 110px 0px;
+  text-align: center;
+}
 
+
+.page-heading-ticket-details h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
 
 .ticket-details-page {
   margin: 100px 0px;
@@ -2261,8 +2337,8 @@ footer p.copyright {
     transform: translateX(0);
     margin-top: 12px;
     margin-left: 31px;
-    -webkit-animation: dots 2.8s infinite;
-    animation: dots 2.8s infinite;
+    -webkit-animation: dots 992.8s infinite;
+    animation: dots 992.8s infinite;
 }
 
 .preloader-inner .dots span {
@@ -2450,9 +2526,6 @@ footer p.copyright {
     width: 100%;
   }
 
-  .pre-header {
-    display: none;
-  }
 
 }
 
