@@ -1512,7 +1512,7 @@ footer p.copyright {
   color: #fff;
   font-weight: 800;
   margin-bottom: 15px;
-  background-color: #0c7a9fba;
+  background-color: #00a6deba;  
   border-radius: 19px;
   text-align: center;
   line-height: normal;
@@ -1992,7 +1992,7 @@ footer p.copyright {
 }
 
 .ticket-details-page img {
-  max-width: 100%;
+  max-width: -webkit-fill-available;
   overflow: hidden;
 }
 
