@@ -229,7 +229,7 @@ body {
 }
 
 .header-area {
-  position: relative;
+  position: sticky;
   top: 0px;
   left: 0px;
   right: 0px;
