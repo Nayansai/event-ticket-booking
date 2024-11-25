@@ -81,6 +81,33 @@ p {
   font-weight: 300;
 }
 
+/* Styling for the logo at the bottom-left */
+#github-logo {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 25px;
+  margin-left: 25px;;
+}
+
+.circle-background {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 25px;
+  margin-left: 25px;; 
+  border-radius: 50%; 
+  background-color: #e0e0e0; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
 
 html,
 body {
@@ -2358,6 +2385,20 @@ footer p.copyright {
 
 @media (max-width: 1036px) {
 
+  #github-logo {
+        width: 70px; 
+        height: 70px;
+        left: 15px;
+        bottom: 15px;
+    }
+
+    .circle-background {
+        width: 70px; 
+        height: 70px;
+        left: 15px;
+        bottom: 15px;
+    }
+
   .owl-show-events .owl-nav {
     display: none;
   }
@@ -2365,6 +2406,20 @@ footer p.copyright {
 }
 
 @media (max-width: 992px) {
+
+      #github-logo {
+        width: 60px;
+        height: 60px;
+        left: 12px;
+        bottom: 12px;
+    }
+
+    .circle-background {
+        width: 60px;
+        height: 60px;
+        left: 12px;
+        bottom: 12px;
+    }
 
   .amazing-venues .right-content {
     margin-left: 0;
@@ -2507,6 +2562,20 @@ footer p.copyright {
 
 
 @media (max-width: 450px) {
+
+  #github-logo {
+        width: 60px; 
+        height: 60px;
+        left: 7px; 
+        bottom: 7px;
+    }
+
+    .circle-background {
+        width: 60px; 
+        height: 60px;
+        left: 7px; 
+        bottom: 7px;
+    }
 
   .rent-venue-tabs #tabs ul li {
     text-align: center;
