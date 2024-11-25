@@ -12,6 +12,9 @@
     <meta name="author" content="Trek">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+    
     <title>wAversX Template - Event Detail Page</title>
 
 
@@ -358,7 +361,32 @@
             </div>
         </div>
     </footer>
-    
+
+      <!-- Container for bottom left corner -->
+        <div class="version">
+            <div class="logo-container">
+                <div class="circle-background">
+                <!-- Anchor tag to wrap the Lottie animation -->
+                <a href="https://github.com/Nayansai/To-Do-list" target="_blank" id="github-link">
+                    <div id="github-logo"></div>
+                </a>
+                </div>
+            </div>
+        </div>
+        <script>
+            // Load the JSON animation
+            const animation = lottie.loadAnimation({
+                container: document.getElementById('github-logo'), 
+                renderer: 'svg',
+                loop: true, 
+                autoplay: true, 
+                path: 'assets/images/icons8-github.json' 
+            });
+        
+            // text when hovering over the logo
+            const githubLink = document.getElementById('github-link');
+            githubLink.title = "Visit GitHub!";
+        </script>
     
 
     <!-- jQuery -->
