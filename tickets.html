@@ -29,6 +29,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css" />
 
     <link rel="stylesheet" href="assets/css/wAversX.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
   </head>
 
   <body>
@@ -475,6 +477,31 @@
         </div>
       </div>
     </footer>
+        <!-- Container for bottom left corner -->
+    <div class="version">
+        <div class="logo-container">
+            <div class="circle-background">
+            <!-- Anchor tag to wrap the Lottie animation -->
+            <a href="https://github.com/Nayansai/To-Do-list" target="_blank" id="github-link">
+                <div id="github-logo"></div>
+            </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Load the JSON animation
+        const animation = lottie.loadAnimation({
+            container: document.getElementById('github-logo'), 
+            renderer: 'svg',
+            loop: true, 
+            autoplay: true, 
+            path: 'assets/images/icons8-github.json' 
+        });
+    
+        // text when hovering over the logo
+        const githubLink = document.getElementById('github-link');
+        githubLink.title = "Visit GitHub!";
+    </script>
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
